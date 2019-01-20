@@ -1,20 +1,12 @@
 import React, { Component } from "react";
+import Logo from "./components/Logo";
 
 class App extends Component {
   render() {
     return (
       <div>
         <header>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Logo />
         </header>
       </div>
     );
