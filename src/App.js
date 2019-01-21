@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Logo from "./components/Logo";
+import NavBarMenuAndLogo from "./components/NavBarMenuAndLogo";
 
 class App extends Component {
   render() {
     return (
       <div>
         <header>
-          <Logo />
+          <NavBarMenuAndLogo />
         </header>
       </div>
     );
