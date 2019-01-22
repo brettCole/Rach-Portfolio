@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import NavBarMenuAndLogo from "./components/NavBarMenuAndLogo";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <header>
-          <NavBarMenuAndLogo />
-        </header>
-      </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={Homepage} />
+        </div>
+      </Router>
     );
   }
 }
